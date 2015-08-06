@@ -1,18 +1,29 @@
 body {
-    background: url(http://cdn.designbeep.com/wp-content/uploads/2011/12/46.free-bokeh-textures.jpg)
+    background: url(https://41.media.tumblr.com/edf0185d547ffabcc37e103ad3808495/tumblr_n7ibokIhlj1qg49aro1_r1_500.png)
 }
 
-h1,h2 {
-    display: block;
+
+h1{
     font-family: 'Pompiere', cursive;
-    color:#310538;
+    color:#2E35A1;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+}
+h2 {
+    font-family: 'Pompiere', cursive;
+    color:#2E35A1;
     text-align: center;
     font-size: 40px;
 }
+h2, {font-family: 'Pompiere', cursive;
+    color:#2E35A1;
+    text-align: center;
+    font-size: 30px;}
 
 p {
     font-family: 'Pompiere', cursive;
-    color: #310538;
+    color:#2E35A1;
     font-size: 40px;
     text-align: center;
 }
@@ -26,7 +37,7 @@ IMG.displayed {
 ul.list {
 
     font-family: 'Pompiere', cursive;
-    color: #310538;
+    color: #2E35A18;
     font-size: 20px;
     text-align: center;
 }
@@ -39,15 +50,25 @@ ul li  {
 }
 
 select.drop-list {
+    display: block ;
+    margin-left: ;
+    margin-right: auto;
+}
+div {
+    width: auto px;
+    padding: 10px solid #310538;
+    border: 10px solid #310538;
+    margin: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto
 }
-div {
-    width: 500px;
-    padding: 100px;
-    border: 100px solid #310538;
-    margin: 100px;
+
+#title {
+    width: auto;
+    padding: 10px solid #310538;
+    border: 10px solid #310538;
+    margin: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto
