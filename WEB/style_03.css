@@ -1,17 +1,18 @@
 body {
-    background: url(https://graphicalerts.files.wordpress.com/2011/01/paper-texture-9.jpg)
+    background: url(http://cdn.designbeep.com/wp-content/uploads/2011/12/46.free-bokeh-textures.jpg)
 }
 
 h1,h2 {
-    font-family: 'Fredericka the Great', cursive;
-    color: black;
+    display: block;
+    font-family: 'Pompiere', cursive;
+    color:#310538;
     text-align: center;
     font-size: 40px;
 }
 
 p {
-    font-family: 'Fredericka the Great', cursive;
-    color: black;
+    font-family: 'Pompiere', cursive;
+    color: #310538;
     font-size: 40px;
     text-align: center;
 }
@@ -24,8 +25,8 @@ IMG.displayed {
 
 ul.list {
 
-    font-family: 'Fredericka the Great', cursive;
-    color: black;
+    font-family: 'Pompiere', cursive;
+    color: #310538;
     font-size: 20px;
     text-align: center;
 }
@@ -44,9 +45,9 @@ select.drop-list {
 }
 div {
     width: 500px;
-    padding: 25px;
-    border: 25px solid #FACA00;
-    margin: 25px;
+    padding: 100px;
+    border: 100px solid #310538;
+    margin: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto
