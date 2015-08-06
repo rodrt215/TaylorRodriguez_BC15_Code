@@ -40,6 +40,7 @@ ul.list {
     color: #2E35A18;
     font-size: 20px;
     text-align: center;
+    background-color:#F0C1F5;
 }
 
 ul  {
@@ -61,7 +62,8 @@ div {
     margin: 10px;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    background-color:#F0C1F5;
 }
 
 #title {
@@ -71,7 +73,8 @@ div {
     margin: 10px;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    background-color:#F0C1F5;
 }
 
 }
