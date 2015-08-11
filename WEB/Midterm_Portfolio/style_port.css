@@ -1,0 +1,175 @@
+body{
+	margin:0;
+	padding:20;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Sintony', sans-serif;
+	color: black
+
+}
+
+header {
+	position: absolute;
+	top:0;
+	width: 100vw;
+	height: 70px;
+	background-color: white;
+	z-index: 999999;
+	/*determines the "layer" of element- top layer = highest number*/
+	/*position absolute, play with top,bottom,left,right*/
+}
+
+header nav {
+	float: right;
+	line-height: 30px;
+	margin: 35px 30px;
+}
+
+header nav a {
+	left:auto;
+	right:10vw;
+	padding-bottom: -2px;
+	position: absolute;
+	/*margin-right: 20px;*/
+	text-transform: uppercase;
+
+}
+/*padding vs. top bottom ect.*/
+/*this can be used to add hover effects*/
+/*shift command C: Color picker */
+
+
+#logo{
+	width: 10px;
+	height: auto;
+	position: fixed;
+	left: auto;
+}
+
+#router{
+	position:absolute;
+	top:5vw;
+	right:10vw;
+	left:29vw;
+	padding:10px;
+	z-index: 200;
+}
+
+#espy{
+	position:absolute;
+	top:50vw;
+	right:10vw;
+	left:50vw;
+	padding-top:10px;
+	z-index: 300;
+}
+
+#spoonLamp{
+	position: absolute;
+	top: 35vw;
+	left: 25vw;
+	z-index: 100;
+}
+
+#back{
+	position:absolute;
+	top:35vw;
+	right:10vw;
+	left:60vw;
+	padding:10px;
+	z-index: 50	
+}
+
+#back02{
+	position:absolute;
+	top:91vw;
+	right:10vw;
+	left:60vw;
+	padding:10px;
+	z-index: 50;
+}
+
+#lighting{
+	position:absolute;
+	top:74vw;
+	right:auto;
+	left:30vw;
+	/*padding:10px;*/
+	z-index: 50;
+}
+
+#allfaiths{
+	position:absolute;
+	top:103vw;
+	right:10vw;
+	left:auto;
+	z-index: 50;
+}
+
+#wcs{
+	position:absolute;
+	top:105vw;
+	right:50vw;
+	left:auto;
+	z-index: 50;
+}
+
+#project {
+  position:absolute;
+  width:100vw;
+  right:10vw;
+  left:20vw;
+  top:200px;
+
+}
+
+#aboutme{
+	position:absolute;
+	right:20vw;
+	top:15vw;
+	text-decoration: none;
+	font-family: 'Sintony', sans-serif;
+	color: black;
+
+}
+ 
+#pic{
+	position:absolute;
+	left:23vw;
+	top:23vw;
+	padding-bottom: 40px;
+}
+
+#email{
+	text-decoration: none;
+	font-family: 'Sintony', sans-serif;
+	color: black;
+	position:absolute;
+	top:18vw;
+	left:0vw;
+}
+
+#phone{
+	text-decoration: none;
+	font-family: 'Sintony', sans-serif;
+	color: black;
+	position:absolute;
+	left:25vw;
+	top:18vw;
+	z-index: 100
+
+}
+
+
+#backabout{
+	position:fixed;
+	top:10vw;
+	right:30vw;
+	left:35vw;
+	padding:10px;
+	z-index: 50	
+}
+}
+}
