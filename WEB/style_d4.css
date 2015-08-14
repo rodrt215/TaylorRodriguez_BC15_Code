@@ -16,6 +16,7 @@ header {
 	background-color: rgba(10,10,10,0.8);
 	z-index: 100;
 	/*determines the "layer" of element- top layer = highest number*/
+	/*position absolute, play with top,bottom,left,right*/
 }
 
 header nav {
