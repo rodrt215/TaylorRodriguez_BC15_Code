@@ -14,13 +14,13 @@ float bcolor = random(255);
 
 void setup () {
   size(500,500);
-  background(0);
+  background(255);
 }
 
 void draw () {
 
   noStroke();
-  fill(rcolor,gcolor,bcolor,2);
+  fill(rcolor,gcolor,bcolor,1);
   rect(x1,x2,x3,x4);
   rect(x5,x6,x7,x8);
 }
